@@ -1,0 +1,53 @@
+body{
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: 15px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menu{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    color: black;
+}
+
+.menu li{
+    margin: 15px;
+}
+
+.menu .item1{
+    background: #5BC241;
+    padding: 20px;
+}
+
+.menu .item2{
+    background: #5BC241;
+    border-radius: 20px; 
+    padding: 20px;
+    margin: 35px;
+}
+
+.menu a{
+    list-style: none;
+    color: black;
+}
+
+.menu .item2 a, .item1 a{
+    color: white;
+}
