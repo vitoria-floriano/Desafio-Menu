@@ -1,53 +1,47 @@
 body{
     color: black;
     font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    color: #000;
-    font-size: 15px;
     align-items: center;
+    padding: 45px;
 }
 
 .logo{
     display: flex;
-    justify-content: center;
-    padding: 45px;
-    font-size: 24px;
+    align-items: center;
+}
+
+.logo .name{
     font-weight: 800;
+    font-size: 20px;
+    padding: 8px;
 }
 
-.menu{
-    box-sizing: border-box;
-    width: 100%;
+.menu-list .menu{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     color: black;
 }
 
-.menu li{
+.menu-list .menu li a{
     margin: 15px;
+    padding: 10px 20px;
 }
 
-.menu .item1{
-    background: #5BC241;
-    padding: 20px;
+.menu-list .menu li a:hover{
+    background-color: #5BC241;
+    color: #fff;
 }
 
-.menu .item2{
-    background: #5BC241;
-    border-radius: 20px; 
-    padding: 20px;
-    margin: 35px;
-}
-
-.menu a{
-    list-style: none;
-    color: black;
-}
-
-.menu .item2 a, .item1 a{
-    color: white;
+.menu-list .menu .button{
+    background-color: #5BC241;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px 20px;
 }

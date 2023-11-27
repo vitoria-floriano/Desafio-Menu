@@ -1,45 +1,33 @@
 @media(max-width: 820px){
     .container {
-        width: 100%;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    
-    .logo{
-        justify-content: center;
-        font-size: 40px;
-        margin: 15px;
-        width: 100%;
-    }
-
-    .menu-list{
-        width: 100%;
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    .menu{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
-    .menu li{
-        display: block;
-        margin: 0;
-        padding: 15px;
+    .logo .name {
+        font-size: 40px;
+        font-weight: 800;
     }
 
-    .menu .item1{
-        align-self: center;
+    .menu-list .menu {
+        flex-direction: column;
+        margin-top: 50px;
     }
 
-    .menu .item2{
+    .menu-list .menu li {
+        padding: 30px 0;
+    }
+
+    .menu-list .menu li:last-child{
+        margin-top: 20px;
+    }
+
+    .menu-list .menu li a{
+        font-size: 40px;
+        padding: 18px 40px;
+    }
+
+    .menu-list .menu .button{
         font-size: 18px;
-        padding: 15px;
-        margin: 35px;
-        align-self: center;
+        padding: 15px 22px;
     }
-
 }
